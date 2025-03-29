@@ -3,9 +3,10 @@ import {Dashboard} from "~/dashboard/dashboard";
 import type {Route} from "./+types/dashboard";
 
 export async function clientLoader({params}: Route.ClientLoaderArgs) {
-    const res = await fetch(`http://localhost:8080/api/v1/list/`);
-    const data = await res.json();
-    return data;
+    // const res = await fetch(`http://localhost:8080/api/v1/list/`);
+    // const data = await res.json();
+    // return data;
+    return "adsf";
 }
 
 // HydrateFallback is rendered while the client loader is running
